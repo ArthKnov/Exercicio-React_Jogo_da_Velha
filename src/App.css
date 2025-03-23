@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+    .board {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .board-row {
+      display: flex;
+      gap: 10px;
+    }
+  
+    .square {
+      width: 100px;
+      height: 100px;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      border: 2px solid black;
+    }
+  
+    .highlight {
+      background-color: rgba(112, 112, 112, 0.582);
+    }
+  
+    .status {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .reset-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+    }
