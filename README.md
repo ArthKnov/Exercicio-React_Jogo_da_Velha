@@ -25,29 +25,3 @@ Se alguém vencer, os quadrados vencedores serão destacados e confetes aparecer
 
 Clique no botão "Reiniciar Jogo" para começar uma nova rodada.
 
-📦 Como Rodar o Projeto Localmente
-Clone o repositório:
-
-sh
-Copiar
-Editar
-git clone https://github.com/seu-usuario/jogo-da-velha-react.git
-Acesse a pasta do projeto:
-
-sh
-Copiar
-Editar
-cd jogo-da-velha-react
-Instale as dependências:
-
-sh
-Copiar
-Editar
-npm install
-Inicie o servidor de desenvolvimento:
-
-sh
-Copiar
-Editar
-npm run dev
-Acesse no navegador: http://localhost:5173
